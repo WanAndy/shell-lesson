@@ -1,0 +1,187 @@
+    1  pwd
+    2  ls
+    3  ls -l
+    4  cd Desktop
+    5  cd /Desktop
+    6  pwd
+    7  cd /c/Users/wantuchk/Desktop
+    8  cd "Desktop"
+    9  ls
+   10  cd Desktop
+   11  cd
+   12  cd /c/Desktop
+   13  cd lcw2022
+   14  cd Desktop/lcw2022
+   15  cd /c
+   16  cd Desktop
+   17  cd
+   18  cd Desktop
+   19  cd Desktop
+   20  ls
+   21  cd ..
+   22  ls
+   23  cd wantuchk/Desktop
+   24  cd wantuchk
+   25  ls
+   26  cd /c
+   27  ls
+   28  cd
+   29  ls
+   30  ls --help
+   31  ls -s
+   32  ls -S
+   33  ls
+   34  cd OneDrive
+   35  ls
+   36  ls /desktop
+   37  cd ..
+   38  cd /Desktop
+   39  cd
+   40  ls
+   41  cd OneDrive - Albany College of Pharmacy and Health Sciences
+   42  cd "OneDrive
+   43  cd
+   44  ls
+   45  cd 'OneDrive - Albany College of Pharmacy and Health Sciences'
+   46  ls
+   47  cd Downloads
+   48  ls
+   49  cd shell-lesson
+   50  ls
+   51  mkdir firstdir
+   52  ls
+   53  cd firstdir
+   54  cd ..
+   55  cd firstdir/
+   56  cd ..
+   57  ls
+   58  ls -lh
+   59  cat 829-0.txt
+   60  head 829.0.txt
+   61  head 829-0.txt
+   62  tail 829-0.txt
+   63  head --help
+   64  less 829-0.txt
+   65  cd /Downloads
+   66  cd Downloads
+   67  ls
+   68  cd shell-lesson
+   69  ls
+   70  head 829-0.txt 33504-0.txt
+   71  head *.pdf
+   72  head *.txt
+   73  mv 829-0.txt gulliver.txt
+   74  ls
+   75  rp gulliver.txt gulliver-backup.txt
+   76  cd gulliver.txt gulliver-backup.txt
+   77  cp gulliver.txt gulliver-backup.txt
+   78  mv firstdir backup
+   79  ls
+   80  cd ..
+   81  ls
+   82  cd shell-lesson
+   83  ls
+   84  mv gulliver-backup.txt backup
+   85  cd backup
+   86  ls
+   87  ls backup
+   88  cd ..
+   89  ls backup
+   90  pwd
+   91  history
+   92  history > history.txt
+   93  ls
+   94  head history.txt
+   95  echo "It is always sunny in Texas!  Today it is "$(date)
+   96  NAME="Peace"
+   97  ls
+   98  rm gulliver-backup.txt
+   99  cd backup
+  100  rm gulliver-backup.txt
+  101  ls
+  102  cp gulliver.txt gulliver-backup.txt
+  103  cd ..
+  104  cp gulliver.txt gulliver-backup.txt
+  105  mv gulliver-backup.txt backup
+  106  cd backup/
+  107  ls
+  108  cd shell-lesson
+  109  pwd
+  110  cd ..
+  111  ls
+  112  touch a.txt b.txt c.txt d.txt
+  113  ls
+  114  for filename in ?.txt; do echo "$filename"; cp "$filename" backup_"$filename"; done
+  115  ls
+  116  for file in *.txt; do echo "$file"; head -n 1; done
+  117  head --help
+  118  for file in *.txt; do echo "$file"; head -n 1 "$file"; tail -n 1 "$file"; done
+  119  bash my_first_bash_script.sh
+  120  pwd
+  121  ls -lhS
+  122  head -n 3 2014-01_JA.tsv
+  123  wc *.tsv
+  124  wc -l *.tsv
+  125  wc -l *.tsv > lengths.txt
+  126  cat lengths.txt
+  127  sort -n length.txt > sorted-lengths.txt
+  128  sort -n lengths.txt > sorted-lengths.txt
+  129  cat sorted-lengths.txt
+  130  wc -l *.txt | sort -n | head -n 1
+  131  wc -l *.tsv | sort -n | head -n 1
+  132  wc --help
+  133  wc -w *.tsv | sort -n | tail -n 10
+  134  cd /Downloads/lcw2022
+  135  pwd
+  136  ls wantuchk
+  137  ls /wantuchk
+  138  ls
+  139  cd Downloads
+  140  ls
+  141  cd shell-lesson
+  142  mkdir results
+  143  ls
+  144  grep 1999 *.tsv
+  145  grep -c 1999 *.tsv
+  146  grep -ci revolution *.tsv
+  147  grep -w America *.tsv
+  148  grep -w America\b *.tsv
+  149  grep -w America 2014-01-31_JA-africa.tsv 2014-01-31_JA-america.tsv
+  150  grep -c America 2014-01-31_JA-africa.tsv 2014-01-31_JA-america.tsv
+  151  grep -P "\d\d\d\d-\d\d\d\d" 
+  152  mkdir hello-world
+  153  ls
+  154  cd hello-world
+  155  git init
+  156  ls
+  157  ls -a
+  158  git status
+  159  touch index.md
+  160  git status
+  161  git add index.md
+  162  git status
+  163  git commit -m 'add index.md'
+  164  history history.txt
+  165  cd ..
+  166  cd ../lcw2022
+  167  pwd
+  168  cd /lcw2022
+  169  ls
+  170  ls -a
+  171  git init
+  172  git status
+  173  git add.
+  174  git .add
+  175  history > history.txt
+  176  tail history.txt
+  177  cd /shell-lesson
+  178  pwd
+  179  git init
+  180  ls -a
+  181  git status
+  182  git add .
+  183  git status
+  184  git commit -m "add day 1 files"
+  185  git status
+  186  git commit -m 'add day 1 files'
+  187  history > history.txt
